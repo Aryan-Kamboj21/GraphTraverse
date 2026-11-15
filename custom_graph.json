@@ -1,0 +1,17 @@
+{
+  "nodes": [
+    {"name":"A", "x":0, "y":0},
+    {"name":"B", "x":1, "y":0},
+    {"name":"C", "x":1, "y":1},
+    {"name":"D", "x":2, "y":1},
+    {"name":"E", "x":3, "y":1}
+  ],
+  "edges": [
+    {"from":"A", "to":"B", "weight":1},
+    {"from":"A", "to":"C", "weight":4},
+    {"from":"B", "to":"C", "weight":1},
+    {"from":"B", "to":"D", "weight":5},
+    {"from":"C", "to":"D", "weight":1},
+    {"from":"D", "to":"E", "weight":1}
+  ]
+}
