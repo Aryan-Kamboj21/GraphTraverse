@@ -3,6 +3,14 @@
 A robust Java-based application and visualizer for exploring and comparing classic graph traversal and pathfinding algorithms. This tool features an interactive Swing-based graphical user interface (GUI) to visualize step-by-step path recalculation, edge manipulation, and real-time algorithmic execution.
 
 ---
+## Screenshot 
+![Graph Algorithm Visualizer](screenshots/image.png)
+
+
+Interactive Graph Algorithm Visualizer showing BFS execution,
+frontier queue, visited nodes, and the final path.
+
+---
 
 ## Features
 
@@ -34,7 +42,7 @@ A robust Java-based application and visualizer for exploring and comparing class
 ## Project Structure
 
 ```text
-Dynamic-Route-Finder-main/
+GraphTraverse/
 │
 ├── bin/                      # Compiled class files (.class)
 │   ├── AnimationStep.class
@@ -76,12 +84,9 @@ java -cp bin:lib/* Main
 *(Note: Adjust classpath separators depending on your operating system—use `;` for Windows and `:` for macOS/Linux).*
 
 ---
-
 ## Usage
 
-1. Launch the application to open the **Graph Visualizer Dashboard**.
-
-
+1. Launch the application to open the **Graph Visualizer Dashboard** using src/Main.java.
 2. Create or load a graph structure containing nodes and weighted edges.
 3. Select your desired pathfinding algorithm and start the simulation to view step-by-step traversal animations.
 
